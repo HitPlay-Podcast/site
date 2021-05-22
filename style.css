@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Custumize navbar */
+.navbar {
+    background-color: #201C1C;
+}
+
+.navbar-brand {
+    display: flex;
+    margin-left: 1rem;
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+.nav-item {
+    justify-content: space-evenly;
+    margin-left: 2rem;
+}
+
+.collapse {
+    justify-content: flex-end;
+    margin-left: 2rem;
+    color: #fff;
+}
+
+.colortext {
+    color: #fff !important;
+}
